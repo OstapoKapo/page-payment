@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <div class="wrap">
+        <div class="wrap__left">
+            <div class="wrap__left__header">Розрахувати <br> щомісячний платіж?<div class="wrap__left__emg"></div></div>
+            <div class="wrap__left__item">
+                <div class="item__header item__header2">Вік Дитини</div>
+                <div class="item__text item__text2" id="rangeInputValue2">1</div>
+                <input type="range" value="1" min="1" max="6" step="1" class="item__input" id="rangeInput">
+            </div>
+          
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <div class="select">
+                <input class="select__input" type="hidden" name="">
+                <div class="item__header">Формат</div>
+               
+                <div class="select__head">
+                    <div class="item__text" id="rangeInputValue">Повний</div>
+                    
+                </div>
+                <ul class="select__list" style="display: none;">
+                    <li class="select__item" id="full">Повний </li>
+                    <li class="select__item" id="Nofull">Неповний</li>
+                    
+                </ul>
+            </div>
+
+
+             <div class="select">
+                <input class="select__input" type="hidden" name="">
+                <div class="item__header">Харчування</div>
+               
+                <div class="select__head">
+                    <div class="item__text" id="rangeInputValue">2-х разовий (сніданок-обід)</div>
+                    
+                </div>
+                <ul class="select__list" style="display: none;">
+                    <li class="select__item" id="time2">2-х разовий (сніданок-обід) </li>
+                    <li class="select__item" id="time4"> (сніданок,обід,перкус,вечеря)</li>
+                    
+                </ul>
+            </div>
+
+            <div class="select">
+                <input class="select__input" type="hidden" name="">
+                <div class="item__header">Вид оплати</div>
+               
+                <div class="select__head">
+                    <div class="item__text" id="rangeInputValue"> за реквізитами що місяця</div>
+                    
+                </div>
+                <ul class="select__list" style="display: none;">
+                    <li class="select__item" id="alone"> за реквізитами що місяця </li>
+                    <li class="select__item" id="automatic"> Автоматичне списання</li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="wrap__right">
+            <div class="wrap__right__header">Загальні витрати <div class="wrap__right__emg"></div></div>
+            <div class="wrap__right__price" id="rightPrice">$</div>
+            <div class="wrap__right__line"></div>
+            <div class="wrap__right__underHeader">Вартість Абонемента <div class="wrap__right__emg2"></div> </div>
+            <div class="wrap__right__header2">24323$</div>
+            <div class="wrap__right__underHeader wrap__right__underHeader2 ">Записуєш у садок більше,ніж 1 дитину? </div>
+            <div class="wrap__right__header2">10% відсотків знижки всі</div>
+            <div class="wrap__right__underHeader wrap__right__underHeader2 ">Приведеш друга/подругу?</div>
+            <div class="wrap__right__header2">20% знижки на 1 місяць для обох</div>
+        </div>
+    </div>
+</div>    
+<script src="main.js"></script>
+</body>
+</html>
